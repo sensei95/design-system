@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- Sidebar Navigation -->
     <div class="navigation">
       <div class="menu_toggle"></div>
       <div class="profile">
@@ -60,6 +61,7 @@
       </ul>
     </div>
 
+    <!-- Dots Navigation -->
     <div class="dots_navigation">
       <span style="--i: 0; --x: -1; --y: 0">
         <ion-icon name="camera-outline"></ion-icon>
@@ -89,6 +91,54 @@
         <ion-icon name="time-outline"></ion-icon>
       </span>
     </div>
+
+    <!-- Circular Navigation -->
+    <ul class="circular_menu">
+      <div class="toggle">
+        <ion-icon name="add-outline"></ion-icon>
+      </div>
+      <li class="active" style="--i: 0; --x: -1; --y: 0">
+        <a href="">
+          <ion-icon name="camera-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 1; --x: 1; --y: 0">
+        <a href="">
+          <ion-icon name="diamond-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 2; --x: 0; --y: -1">
+        <a href="">
+          <ion-icon name="chatbubble-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 3; --x: 0; --y: 1">
+        <a href="">
+          <ion-icon name="alarm-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 4; --x: 1; --y: 1">
+        <a href="">
+          <ion-icon name="game-controller-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 5; --x: -1; --y: -1">
+        <a href="">
+          <ion-icon name="moon-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 6; --x: 0; --y: 0">
+        <a href="">
+          <ion-icon name="notifications-outline"></ion-icon>
+        </a>
+      </li>
+      <li style="--i: 7; --x: -1; --y: 1">
+        <a href="">
+          <ion-icon name="water-outline"></ion-icon>
+        </a>
+      </li>
+      <div class="indicator"></div>
+    </ul>
 
     <script
       type="module"
